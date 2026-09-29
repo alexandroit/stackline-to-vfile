@@ -29,8 +29,12 @@
     "test:package": "node scripts/test-package.mjs",
     "test:types": "tsc --ignoreConfig --noEmit --module NodeNext --moduleResolution NodeNext --target ES2022 --strict test/stackline-types.mts"
   },
-  "homepage": "https://github.com/alexandroit/stackline-to-vfile#readme",
+  "homepage": "https://alexandro.net/docs/vanilla/to-vfile/",
   "keywords": [
+    "stackline",
+    "npm-package",
+    "to-vfile",
+    "typescript",
     "vfile",
     "vfile-util",
     "util",
@@ -41,7 +45,6 @@
     "processing",
     "file-path",
     "path",
-    "stackline",
     "maintenance-fork"
   ],
   "prettier": {
@@ -85,7 +88,7 @@
     "typescript": "7.0.2",
     "@types/node": "24.12.2"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },

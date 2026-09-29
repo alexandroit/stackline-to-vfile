@@ -1,27 +1,52 @@
 # @stackline/to-vfile
 
-Independent maintenance fork of `to-vfile@7.2.4`, preserving its API and published type declarations.
+> vfile utility to create a vfile from a filepath.
 
-```sh
+[![npm version](https://img.shields.io/npm/v/@stackline/to-vfile.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/to-vfile)
+[![license](https://img.shields.io/npm/l/@stackline/to-vfile.svg?style=flat-square)](https://github.com/alexandroit/stackline-to-vfile)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-to-vfile-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-to-vfile)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/to-vfile/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/to-vfile/)** | **[npm](https://www.npmjs.com/package/@stackline/to-vfile)** | **[Issues](https://github.com/alexandroit/stackline-to-vfile/issues)** | **[Repository](https://github.com/alexandroit/stackline-to-vfile)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/to-vfile` is the Stackline-maintained distribution of `to-vfile@7.2.4`. It is an independent continuation of [to-vfile](https://github.com/vfile/to-vfile); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/to-vfile@1.0.1` |
+| API target | `to-vfile@7.2.4` |
+| Supported Node.js | `See supported framework requirements` |
+| License | `MIT` |
+| Module type | `module` |
+| Main entry | `index.js` |
+| Types | `index.d.ts` |
+| Runtime dependencies | `vfile, is-buffer` |
+
+## Installation
+
+```bash
 npm install @stackline/to-vfile
-# Keep existing imports:
-npm install to-vfile@npm:@stackline/to-vfile@1.0.0
 ```
 
-[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-to-vfile/issues) · [Community](https://www.reddit.com/r/Stackline/)
+Preserve existing imports and plugin resolution with an npm alias:
 
-See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+```bash
+npm install to-vfile@npm:@stackline/to-vfile
+```
 
-## Upstream documentation
+## Usage and API reference
 
-# to-vfile
+### to-vfile
 
-[![Build][build-badge]][build]
-[![Coverage][coverage-badge]][coverage]
-[![Downloads][downloads-badge]][downloads]
-[![Sponsors][sponsors-badge]][collective]
-[![Backers][backers-badge]][collective]
-[![Chat][chat-badge]][chat]
 
 [vfile][] utility to read and write to the file system.
 
@@ -64,7 +89,7 @@ This package is [ESM only][esm].
 In Node.js (version 14.14+ and 16.0+), install with [npm][]:
 
 ```sh
-npm install to-vfile
+npm install @stackline/to-vfile
 ```
 
 In Deno with [`esm.sh`][esmsh]:
@@ -84,7 +109,7 @@ In browsers with [`esm.sh`][esmsh]:
 ## Use
 
 ```js
-import {toVFile, read} from 'to-vfile'
+import {toVFile, read} from '@stackline/to-vfile'
 
 console.log(toVFile('readme.md'))
 console.log(toVFile(new URL('readme.md', import.meta.url)))
@@ -273,7 +298,7 @@ URL to file, path to file, options for file, or actual file (TypeScript type).
 type Compatible = Buffer | URL | VFileOptions | VFile | string
 ```
 
-<!-- To do: fix link to `VFileOptions` when `VFile` is updated -->
+
 
 See [`VFileOptions`][vfile] and [`VFile`][vfile].
 
@@ -332,7 +357,7 @@ abide by its terms.
 
 [MIT][license] © [Titus Wormer][author]
 
-<!-- Definitions -->
+
 
 [build-badge]: https://github.com/vfile/to-vfile/workflows/main/badge.svg
 
@@ -399,3 +424,22 @@ abide by its terms.
 [api-read-options]: #readoptions
 
 [api-write-options]: #writeoptions
+
+## Credits and original authors
+
+- Original project: [to-vfile](https://github.com/vfile/to-vfile).
+- Titus Wormer.
+- Copyright (c) 2015 Titus Wormer <tituswormer@gmail.com>.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
