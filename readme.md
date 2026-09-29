@@ -4,13 +4,13 @@
 
 [![npm version](https://img.shields.io/npm/v/@stackline/to-vfile.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/to-vfile)
 [![license](https://img.shields.io/npm/l/@stackline/to-vfile.svg?style=flat-square)](https://github.com/alexandroit/stackline-to-vfile)
-[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-to-vfile-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-to-vfile)
+[![GitHub repository](https://img.shields.io/badge/GitHub-repository-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-to-vfile)
 [![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/to-vfile/)
 [![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
 
 **[Documentation](https://alexandro.net/docs/vanilla/to-vfile/)** | **[npm](https://www.npmjs.com/package/@stackline/to-vfile)** | **[Issues](https://github.com/alexandroit/stackline-to-vfile/issues)** | **[Repository](https://github.com/alexandroit/stackline-to-vfile)**
 
-**Current package version:** `1.0.1`
+**Current package version:** `1.0.2`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/to-vfile@1.0.1` |
+| Package | `@stackline/to-vfile@1.0.2` |
 | API target | `to-vfile@7.2.4` |
 | Supported Node.js | `See supported framework requirements` |
 | License | `MIT` |
