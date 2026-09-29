@@ -1,3 +1,19 @@
+# @stackline/to-vfile
+
+Independent maintenance fork of `to-vfile@7.2.4`, preserving its API and published type declarations.
+
+```sh
+npm install @stackline/to-vfile
+# Keep existing imports:
+npm install to-vfile@npm:@stackline/to-vfile@1.0.0
+```
+
+[Stackline](https://alexandro.net/) · [Issues](https://github.com/alexandroit/stackline-to-vfile/issues) · [Community](https://www.reddit.com/r/Stackline/)
+
+See [UPSTREAM.md](UPSTREAM.md) for source identity and issue review, and [CHANGELOG.md](CHANGELOG.md) for maintenance changes. Functional tests also run against the final npm tarball; releases are published from GitHub Actions with provenance.
+
+## Upstream documentation
+
 # to-vfile
 
 [![Build][build-badge]][build]

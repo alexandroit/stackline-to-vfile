@@ -1,0 +1,22 @@
+{
+  "upstream": "to-vfile",
+  "fork": "@stackline/to-vfile",
+  "repository": "alexandroit/stackline-to-vfile",
+  "upstreamRepository": "vfile/to-vfile",
+  "upstreamVersion": "7.2.4",
+  "sourceCommit": "b16947aa2e5cfc08cb8c714452302e44d89bd2e1",
+  "upstreamIntegrity": "sha512-2eQ+rJ2qGbyw3senPI0qjuM7aut8IYXK6AEoOWb+fJx/mQYzviTckm1wDjq91QYHAPBTYzmdJXxMFA6Mk14mdw==",
+  "status": "source-ready",
+  "files": {
+    "license": "63cb98b3f6abfb3c3592c16f88253c1bdc834087bf52671e8ce5609e4eb693cf",
+    "index.js": "59e161f48cb85a0cf2970f0912ad389d29ab00973071b2d931500eee4b4f9c55",
+    "lib/index.js": "a8068783f147bc732f7867616a9a351d90603fdcc2348a2f0a0e7de0344263e8",
+    "package.json": "df3f2534bdcf7f61242a07a8183cb7a2280626c5820ad1e3521f03186d8b51e8",
+    "readme.md": "31ec05ea87a3b8887f97db295f4f2e4920de076e641e2f1afe99f7abd0685426",
+    "index.d.ts": "b4a07a5abe3d0a4c05f6722c024f842dc7909d5ab8e9212d98c393c2ea8cb09f",
+    "lib/index.d.ts": "0ac932efed612f58eb5033bd449a5fe7ae1bc61fa0ff960f6ebbc8bd4ceda267"
+  },
+  "allowedRuntimeChanges": [],
+  "testCommand": "node --conditions development test.js",
+  "strategy": "Published upstream files, including generated declarations, are preserved and checked against SHA-256. Functional tests run against source and the extracted final package. Changes to published runtime files require an explicit reviewed allowlist."
+}
